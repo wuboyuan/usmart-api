@@ -39,7 +39,7 @@ from usmart_api.quote_push import QuotePushClient
 from usmart_api.core.request import RequestUtil
 from usmart_api.core.crypto import EncryptUtil
 
-__version__ = '2.0.1'
+__version__ = '2.0.2'
 __author__ = 'wuboyuan'
 __email__ = 'wuboyuan92@126.com'
 __all__ = [

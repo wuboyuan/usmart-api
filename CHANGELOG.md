@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.2] - 2024-05-20
+
+### Changed
+- 更新 GitHub 仓库链接
+
 ## [2.0.1] - 2024-05-20
 
 ### Added

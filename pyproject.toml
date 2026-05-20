@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "usmart-api"
-version = "2.0.1"
+version = "2.0.2"
 description = "uSMART OpenAPI Python SDK"
 readme = "README.md"
 license = {text = "MIT"}
@@ -43,10 +43,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/usmart/usmart-api-python"
-Documentation = "https://docs.usmart.com/openapi"
-Repository = "https://github.com/usmart/usmart-api-python"
-Issues = "https://github.com/usmart/usmart-api-python/issues"
+Homepage = "https://github.com/wuboyuan/usmart-api"
+Documentation = "https://github.com/wuboyuan/usmart-api/blob/main/TUTORIAL.md"
+Repository = "https://github.com/wuboyuan/usmart-api"
+Issues = "https://github.com/wuboyuan/usmart-api/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]
