@@ -1,0 +1,70 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "usmart-api"
+version = "2.0.1"
+description = "uSMART OpenAPI Python SDK"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "wuboyuan", email = "wuboyuan92@126.com"}
+]
+# 免责声明：本库参考 uSMART 官方 API 文档开发，仅供学习交流使用
+# 使用本库进行交易产生的任何风险和损失由使用者自行承担，作者不承担任何责任
+keywords = ["usmart", "openapi", "trading", "stock", "api"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Office/Business :: Financial",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "requests>=2.25.0",
+    "websocket-client>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "pytest-cov>=2.0",
+    "black>=21.0",
+    "flake8>=3.9",
+    "mypy>=0.9",
+]
+
+[project.urls]
+Homepage = "https://github.com/usmart/usmart-api-python"
+Documentation = "https://docs.usmart.com/openapi"
+Repository = "https://github.com/usmart/usmart-api-python"
+Issues = "https://github.com/usmart/usmart-api-python/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["usmart_api*"]
+exclude = ["tests*", "examples*", "docs*"]
+
+[tool.black]
+line-length = 100
+target-version = ['py38', 'py39', 'py310', 'py311', 'py312']
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
