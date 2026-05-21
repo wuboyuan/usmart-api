@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "usmart-api"
-version = "2.0.2"
+version = "2.0.3"
 description = "uSMART OpenAPI Python SDK"
 readme = "README.md"
 license = {text = "MIT"}
