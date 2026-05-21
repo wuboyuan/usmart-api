@@ -80,13 +80,13 @@ print(result)
         'data': {
             'areaCode': '86',
             'expiration': 1781840621247,        # token过期时间
-            'invitationCode': 'v2g9h',
-            'nickname': '181****0113',
+            'invitationCode': 'xxxxx',
+            'nickname': '138****1234',
             'openedAccount': True,               # 是否已开户
-            'phoneNumber': '18186430113',
+            'phoneNumber': '13812345678',
             'token': 'eyJ0eXAiOiJKV1Qi...',
             'tradePassword': True,               # 是否设置交易密码
-            'uuid': '1152281476134805504'
+            'uuid': '1234567890123456789'
         },
         'msg': '成功'
     }
