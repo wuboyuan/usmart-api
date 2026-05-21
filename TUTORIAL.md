@@ -189,7 +189,7 @@ print(result)
                 'holdingProfit': '0.00',         # 持仓盈亏
                 'withdrawBalance': '9950.05',    # 可取资金
                 'moneyType': 2,                  # 币种
-                'fundAccount': '80182874',       # 资金账号
+                'fundAccount': '12345678',       # 资金账号
                 'riskStatusCode': 1,             # 风险状态
                 'mvLevelDesc': '安全'             # 风险等级描述
             }
@@ -198,7 +198,7 @@ print(result)
         'totalAssetValue': '121553.92',          # 总资产
         'totalCashBalance': '10168.79',          # 总现金
         'totalMarketValue': '111385.13',         # 总市值
-        'userId': '1152281476134805504'
+        'userId': '1234567890123456789'
     },
     'msg': '成功'
 }
